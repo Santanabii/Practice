@@ -24,13 +24,13 @@ function showData(){
 
    
     document.getElementById("greeting").innerHTML =
-    "Hello " + name + "! Welcome.";
+    `Hello ${name}! Welcome.`;
 
     
     let months = age * 12;
 
     document.getElementById("months").innerHTML =
-    "You are " + months + " months old.";
+    `You are ${months} months old.`
 
     
     if(age >= 18){
