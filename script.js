@@ -43,12 +43,17 @@ function showData(){
     }
 
     
-    let quote = "Keep working hard and never give up";
+    let quote = "Keep working hard and never give up"
+    "Success comes from consistency.",
+    "Small progress is still progress.",
+    "Believe in yourself and keep going.",
+    "Your future is created by what you do today."
+    ;
 
     let text = "";
 
-    for(let i = 0; i < 5; i++){
-        text += "<p>" + quote + "</p>";
+    for(let i = 0; i < quotes.length; i++){
+        text += "<p>" + quotes[i] + "</p>";
     }
 
     document.getElementById("quotes").innerHTML = text;
