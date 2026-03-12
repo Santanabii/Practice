@@ -43,11 +43,10 @@ function showData(){
     }
 
     
-    let quote = "Keep working hard and never give up"
-    "Success comes from consistency.",
+    let quotes = ["Keep working hard and never give up",
     "Small progress is still progress.",
     "Believe in yourself and keep going.",
-    "Your future is created by what you do today."
+    "Your future is created by what you do today."]
     ;
 
     let text = "";
